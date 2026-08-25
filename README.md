@@ -215,6 +215,30 @@ Lo construyo igual.
 
 <br>
 
+---
+
+<br>
+
+## Cinco voces
+
+<sub>Un sitio donde preguntar. No hay nada que comprar, nada que registrar y nada que aceptar.</sub>
+
+<a href="https://ray86-dev.github.io/">
+  <img alt="Terminal: escribes el nombre de un filosofo y contesta" width="100%"
+    src="https://raw.githubusercontent.com/Ray86-dev/Ray86-dev/main/assets/terminal.svg">
+</a>
+
+Los cinco de ahí arriba no se quedaron en la coda. **[Ábrela](https://ray86-dev.github.io/)**
+y escribe `heidegger`, `séneca`, `chestov`, `cioran` o `dostoievski`. Cada uno guarda cuatro
+fragmentos distintos y ninguno se pone de acuerdo con los otros, que es justamente el motivo
+de tenerlos a los cinco.
+
+<sub>Lo que va entre comillas es cita literal, con su obra y su año. Lo que va en cursiva es
+glosa mía, no suya. Chestov aparece casi todo en glosa a propósito: prefiero no ponerle en la
+boca traducciones de las que no estoy seguro.</sub>
+
+<br>
+
 ## Contacto
 
 **rayco@outlook.com**

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Terminal: escribes el nombre de un filosofo y contesta">
+<title>Cinco voces — una terminal donde preguntar</title>
+<defs><style>
+  .win{fill:#05080e}
+  .bar{fill:#0b111b}
+  .dot{fill:#1e2a3a}
+  .tit{fill:#3d4c60;font:400 12px ui-monospace,Menlo,Consolas,monospace;letter-spacing:1.5px}
+  text{font:400 15px ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+  .ps1{fill:#e8b04b} .head{fill:#e8b04b;letter-spacing:1.5px}
+  .src{fill:#7aa7d9} .gloss{fill:#6b7f99;font-style:italic}
+  .cur{fill:#e8b04b;animation:bl 1.1s steps(2,end) infinite}
+  @keyframes bl{50%{opacity:0}}
+    @keyframes k0{0%,6.667%{opacity:0}9.0%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k1{0%,13.333%{opacity:0}15.667%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k2{0%,18.667%{opacity:0}21.0%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k3{0%,25.333%{opacity:0}27.667%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k4{0%,29.333%{opacity:0}31.667%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k5{0%,34.667%{opacity:0}37.0%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+  @keyframes k6{0%,42.667%{opacity:0}45.0%,84.0%{opacity:1}89.333%,100%{opacity:0}}
+    .k0{animation:k0 15.0s linear infinite}
+  .k1{animation:k1 15.0s linear infinite}
+  .k2{animation:k2 15.0s linear infinite}
+  .k3{animation:k3 15.0s linear infinite}
+  .k4{animation:k4 15.0s linear infinite}
+  .k5{animation:k5 15.0s linear infinite}
+  .k6{animation:k6 15.0s linear infinite}
+</style></defs>
+  <rect class="win" width="900" height="300" rx="10"/>
+  <rect class="bar" width="900" height="30" rx="10"/><rect class="bar" y="20" width="900" height="10"/>
+  <circle class="dot" cx="22" cy="15" r="4.5"/><circle class="dot" cx="40" cy="15" r="4.5"/><circle class="dot" cx="58" cy="15" r="4.5"/>
+  <text class="tit" x="450" y="19" text-anchor="middle">atlántico — cinco voces</text>
+  <text class="ps1 k0" x="42" y="74">atlántico:~$ chestov</text>
+  <text class="head k1" x="42" y="104">LEV CHESTOV   1866 - 1938</text>
+  <text class="src k2" x="42" y="134">Atenas y Jerusalén, 1938</text>
+  <text class="gloss k3" x="42" y="164">Su obra entera cabe en ese título: ¿quién manda,</text>
+  <text class="gloss k4" x="42" y="194">la razón que demuestra o la fe que se atreve?</text>
+  <text class="gloss k5" x="42" y="224">Chestov nunca eligió Atenas.</text>
+  <text class="ps1 k6" x="42" y="264">atlántico:~$</text>
+  <rect class="cur k6" x="152" y="251" width="9" height="17"/>
+</svg>
