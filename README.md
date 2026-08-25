@@ -7,8 +7,8 @@
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ray86-dev/Ray86-dev/main/assets/header-dark.svg">
-  <img alt="Rayco — Atlántico 28°N — filosofía, educación pública, software" src="https://raw.githubusercontent.com/Ray86-dev/Ray86-dev/main/assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ray86-dev/Ray86-dev/main/assets/header-dark.svg?v=2">
+  <img alt="Rayco — Atlántico 28°N — filosofía, educación pública, software" src="https://raw.githubusercontent.com/Ray86-dev/Ray86-dev/main/assets/header-light.svg?v=2" width="100%">
 </picture>
 
 <br>
@@ -106,8 +106,9 @@ Para la Educación Secundaria para Personas Adultas. Seleccionas criterios de ev
 tres ámbitos y salen actividades. Una función serverless hace de proxy a Groq para que la clave
 no toque nunca el navegador.
 
-**[EDUSCAN](https://github.com/Ray86-dev/EDUSCAN)**
-Next.js con Capacitor: corregir desde la cámara del móvil. iOS y Android.
+**[EDUSCAN](https://github.com/Ray86-dev/EDUSCAN)** · [web](https://scan-edu.vercel.app)
+Subes una foto del examen y devuelve la corrección, la nota y un feedback formativo.
+Next.js con Capacitor, para iOS y Android.
 
 </details>
 
@@ -142,7 +143,7 @@ Landing minimalista para temarios de oposiciones de Escuelas de Arte en Canarias
 
 > Todo lo anterior resuelve un problema de otro. Esto no.
 
-**[BLOB](https://github.com/Ray86-dev/BLOB)**
+**[BLOB](https://github.com/Ray86-dev/BLOB)** · [web](https://ray86-dev.github.io/BLOB/)
 Un procesador de textos minimalista para escritores y poetas. Sin barras de herramientas, sin
 menús de formato, sin nada. Solo tú y una única tipografía caligráfica. Pensado para quien
 escribe poemas y los publica en un cuadrado de Instagram. Aplicación de escritorio para Windows.
