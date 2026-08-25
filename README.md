@@ -177,7 +177,7 @@ No pienso aparentar lo que no soy, así que lo pongo por delante.
 - No domino ningún lenguaje. No leo una traza de error sin ayuda. No he trabajado nunca dentro
   de un equipo de desarrollo. No sé decir «senior» sin que me dé la risa.
 
-Si buscas a alguien que escriba el código, no soy yo.
+Si buscas a alguien que escriba el código, no soy yo.<br>
 Si buscas a alguien que sepa **qué** hay que construir, **para quién** y **por qué** —
 y que además lo lleve hasta el final — hablemos.
 
