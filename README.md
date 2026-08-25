@@ -229,9 +229,16 @@ Lo construyo igual.
 </a>
 
 Los cinco de ahí arriba no se quedaron en la coda. **[Ábrela](https://ray86-dev.github.io/)**
-y escribe `heidegger`, `séneca`, `chestov`, `cioran` o `dostoievski`. Cada uno guarda cuatro
-fragmentos distintos y ninguno se pone de acuerdo con los otros, que es justamente el motivo
-de tenerlos a los cinco.
+y escribe `heidegger`, `séneca`, `chestov`, `cioran` o `dostoievski`: cada uno guarda cuatro
+fragmentos y ninguno se pone de acuerdo con los otros, que es justamente el motivo de tenerlos
+a los cinco.
+
+También hay bombo. `sortear` extrae **5 de los 71 temas** reales de la especialidad, como hace
+el tribunal. `probabilidad 20` te dice qué opciones tienes con veinte preparados, con las mismas
+fórmulas que usa mi propia app. `test` te pregunta quién escribió qué. Y `vibe` cuenta, sin
+adornos, que esto lo escribió una máquina conversando.
+
+Quedan **19 cosas que no salen en la ayuda**. La terminal avisa cuando das con una.
 
 <sub>Lo que va entre comillas es cita literal, con su obra y su año. Lo que va en cursiva es
 glosa mía, no suya. Chestov aparece casi todo en glosa a propósito: prefiero no ponerle en la
