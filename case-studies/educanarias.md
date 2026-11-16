@@ -97,6 +97,6 @@ That is also how one person covered the rest of the business: Stripe billing, an
 
 ---
 
-The repository is private because it is a running business. I am glad to walk through the code, the specs and the commit history on a call: [rayco@outlook.com](mailto:rayco@outlook.com).
+The repository is private because it is a running business. I am glad to walk through the code, the specs and the commit history on a call: [rayco@outlook.com](mailto:rayco@outlook.com) · [LinkedIn](https://www.linkedin.com/in/rayco-herrera/).
 
 [← Back to profile](https://github.com/Ray86-dev)
