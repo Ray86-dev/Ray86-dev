@@ -14,45 +14,43 @@ I teach philosophy in a public secondary school, so I had the problem before I h
 
 ## What it does
 
-| | |
-|---|---|
-| **Plans** | An agent writes learning units, session plans, rubrics, tests and full-year teaching programmes, using only criteria that exist in the official curriculum. |
-| **Grades** | The teacher photographs a pile of handwritten work. The app matches each paper to a student, grades it criterion by criterion with the official rubric, and shows the evidence. The teacher adjusts and confirms. |
-| **Keeps the gradebook** | Grades land in a gradebook organised by criteria, with a weight per criterion for each group. |
-| **Builds materials** | Slide decks with generated images, handouts, Word and PDF exports, and administrative templates. |
+<table>
+<tr><td valign="top"><b>Plans</b></td><td valign="top">An agent writes learning units, session plans, rubrics, tests and full-year teaching programmes, using only criteria that exist in the official curriculum.</td></tr>
+<tr><td valign="top"><b>Grades</b></td><td valign="top">The teacher photographs a pile of handwritten work. The app matches each paper to a student, grades it criterion by criterion with the official rubric, and shows the evidence. The teacher adjusts and confirms.</td></tr>
+<tr><td valign="top"><b>Keeps the gradebook</b></td><td valign="top">Grades land in a gradebook organised by criteria, with a weight per criterion for each group.</td></tr>
+<tr><td valign="top"><b>Builds materials</b></td><td valign="top">Slide decks with generated images, handouts, Word and PDF exports, and administrative templates.</td></tr>
+</table>
 
-| | |
-|---|---|
-| <img alt="Batch grading" src="../assets/shots/educanarias-batch.jpg"> | <img alt="Gradebook by criteria" src="../assets/shots/educanarias-gradebook.jpg"> |
+<table>
+<tr><td width="50%" valign="top"><img alt="Batch grading" src="../assets/shots/educanarias-batch.jpg"></td><td width="50%" valign="top"><img alt="Gradebook by criteria" src="../assets/shots/educanarias-gradebook.jpg"></td></tr>
+</table>
 
 ## Timeline
 
-| | |
-|---|---|
-| **December 2025** | First commit. I had never programmed before. |
-| **December 2025 to September 2026** | Version 1: 812 commits. A broad set of tools (grader, activity generator, calendar, reports) with Stripe subscriptions and the first paying teachers. |
-| **September 2026** | Version 2: a rewrite around a single agent, started from a written spec. Live on the main domain three days after the first commit, with version 1 kept running on a subdomain. |
-| **September to November 2026** | 537 more commits on version 2: batch grading, cross-conversation memory, full-year programmes, an admin panel, an Android app, a security audit and its fixes. |
+<table>
+<tr><td valign="top"><b>December 2025</b></td><td valign="top">First commit. I had never programmed before.</td></tr>
+<tr><td valign="top"><b>December 2025 to September 2026</b></td><td valign="top">Version 1: 812 commits. A broad set of tools (grader, activity generator, calendar, reports) with Stripe subscriptions and the first paying teachers.</td></tr>
+<tr><td valign="top"><b>September 2026</b></td><td valign="top">Version 2: a rewrite around a single agent, started from a written spec. Live on the main domain three days after the first commit, with version 1 kept running on a subdomain.</td></tr>
+<tr><td valign="top"><b>September to November 2026</b></td><td valign="top">537 more commits on version 2: batch grading, cross-conversation memory, full-year programmes, an admin panel, an Android app, a security audit and its fixes.</td></tr>
+</table>
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    T[Teacher<br>web · Android] --> CF[Cloudflare Workers<br>React 19 SPA, static]
-    CF -->|SSE stream| AG[Edge Function<br>v2-agent]
-    CF --> VI[Edge Function<br>v2-vision]
-    CF --> OT[Edge Functions<br>slides · programmes · reports · billing]
-
-    AG --> SC{Scope<br>classifier}
-    SC -->|off topic| FX[Fixed reply<br>no model, no quota]
-    SC -->|teaching| LOOP[Tool loop<br>up to 7 steps]
-    LOOP --> DS[DeepSeek<br>text]
-    VI --> GM[Gemini<br>handwriting]
-
-    LOOP --> PG[(Supabase Postgres<br>curriculum · rubrics · materials<br>gradebook · quotas · memory)]
+    T["Teacher<br/>web and Android"] --> CF["Cloudflare Workers<br/>React 19 SPA, static"]
+    CF -->|SSE stream| AG["Edge Function<br/>v2-agent"]
+    CF --> VI["Edge Function<br/>v2-vision"]
+    CF --> OT["Edge Functions<br/>slides, programmes, reports, billing"]
+    AG --> SC{"Scope<br/>classifier"}
+    SC -->|off topic| FX["Fixed reply<br/>no model, no quota"]
+    SC -->|teaching| LOOP["Tool loop<br/>up to 7 steps"]
+    LOOP --> DS["DeepSeek<br/>text"]
+    VI --> GM["Gemini<br/>handwriting"]
+    LOOP --> PG[("Supabase Postgres<br/>curriculum, rubrics, materials,<br/>gradebook, quotas, memory")]
     VI --> PG
     OT --> PG
-    OT --> ST[Stripe]
+    OT --> ST["Stripe"]
 ```
 
 **Frontend.** Vite, React 19, TypeScript, Tailwind, TanStack Query and Zustand, served as static files from Cloudflare Workers.

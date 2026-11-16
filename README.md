@@ -20,13 +20,13 @@
 
 ## Open to work
 
-| | |
-|---|---|
-| **Roles** | Product Engineer · AI Product Engineer · Software Engineer with a product focus |
-| **Where** | Remote first. Based in the Canary Islands, Spain (UTC+0, same time as London and Lisbon) |
-| **Relocation** | Open to Ireland, Germany, Canada and the US. A US role would need visa sponsorship |
-| **Languages** | Spanish (native) · English (C1) · German (B2) |
-| **Contact** | [rayco@outlook.com](mailto:rayco@outlook.com) |
+<table>
+<tr><td valign="top"><b>Roles</b></td><td valign="top">Product Engineer · AI Product Engineer · Software Engineer with a product focus</td></tr>
+<tr><td valign="top"><b>Where</b></td><td valign="top">Remote first. Based in the Canary Islands, Spain (UTC+0, same time as London and Lisbon)</td></tr>
+<tr><td valign="top"><b>Relocation</b></td><td valign="top">Open to Ireland, Germany, Canada and the US. A US role would need visa sponsorship</td></tr>
+<tr><td valign="top"><b>Languages</b></td><td valign="top">Spanish (native) · English (C1) · German (B2)</td></tr>
+<tr><td valign="top"><b>Contact</b></td><td valign="top"><a href="mailto:rayco@outlook.com">rayco@outlook.com</a></td></tr>
+</table>
 
 <br>
 
@@ -40,10 +40,10 @@ Teachers in the Canary Islands spend more hours documenting what they teach than
 
 I did all of it: testing with real teachers, product decisions, design, code, infrastructure, billing, support, marketing.
 
-| | |
-|---|---|
-| <img alt="Batch grading of handwritten work, criterion by criterion" src="assets/shots/educanarias-batch.jpg"> | <img alt="Gradebook by evaluation criteria" src="assets/shots/educanarias-gradebook.jpg"> |
-| **Batch grading.** Photos of handwritten exams in, a grade per official criterion out, with the evidence for each one. | **Gradebook.** Grades live on the same criteria the agent planned with, weighted per group. |
+<table>
+<tr><td width="50%" valign="top"><img alt="Batch grading of handwritten work, criterion by criterion" src="assets/shots/educanarias-batch.jpg"></td><td width="50%" valign="top"><img alt="Gradebook by evaluation criteria" src="assets/shots/educanarias-gradebook.jpg"></td></tr>
+<tr><td valign="top"><b>Batch grading.</b> Photos of handwritten exams in, a grade per official criterion out, with the evidence for each one.</td><td valign="top"><b>Gradebook.</b> Grades live on the same criteria the agent planned with, weighted per group.</td></tr>
+</table>
 
 **What is in it**
 
