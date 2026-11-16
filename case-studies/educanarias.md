@@ -69,7 +69,7 @@ flowchart LR
 
 **Guardrails are code with tests.** Separate checks stop the agent from claiming it saved a material that does not exist, from leaking its reasoning into the answer, and from charging quota for a button click that only continues a task.
 
-**Models were chosen on cost and fit.** Text runs on DeepSeek, which keeps the cost per teacher at cents per month. Handwriting runs on Gemini because it read real student papers better in my tests. The original spec named other models. I changed it after measuring.
+**Models were chosen on cost and fit.** Text runs on DS, which keeps the cost per teacher at cents per month. Handwriting runs on Gemini because it read real student papers better in my tests. The original spec named other models. I changed it after measuring.
 
 **Quota is reserved atomically and refunded on failure.** A Postgres function reserves the quota before the model call and another returns it if the generation fails, so two tabs cannot overspend and an error never costs the teacher a message.
 
