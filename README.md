@@ -71,7 +71,7 @@ The code is private. **[The case study](case-studies/educanarias.md)** covers th
 <h3><a href="https://github.com/Ray86-dev/ink-writer">Ink Writer</a></h3>
 Offline desktop app for writing novels. You write every word; the AI builds character and place sheets from your text, watches for contradictions and cites the passage behind each fact. Runs on a local model or a cloud one.
 <br><br>
-The best place to see how I work: a <a href="https://github.com/Ray86-dev/ink-writer/blob/main/SPEC.md">spec</a>, a <a href="https://github.com/Ray86-dev/ink-writer/blob/main/ROADMAP.md">roadmap</a>, <a href="https://github.com/Ray86-dev/ink-writer/tree/main/docs/adr">21 architecture decision records</a> and CI.
+The best place to see how I work: a <a href="https://github.com/Ray86-dev/ink-writer/blob/main/SPEC.en.md">spec</a>, a <a href="https://github.com/Ray86-dev/ink-writer/blob/main/ROADMAP.md">roadmap</a>, <a href="https://github.com/Ray86-dev/ink-writer/tree/main/docs/adr">21 architecture decision records</a> and CI.
 <br><br>
 <code>Tauri</code> <code>Rust</code> <code>TypeScript</code> <code>Yjs</code> <code>SQLite</code>
 </td>
