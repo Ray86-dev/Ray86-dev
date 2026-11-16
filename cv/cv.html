@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rayco Herrera · AI Product Engineer · CV</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font: 9pt/1.36 "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #1c2430; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 11mm 15mm 9mm; overflow: hidden; }
+  a { color: inherit; text-decoration: none; }
+  header { border-bottom: 1.6pt solid #0b1220; padding-bottom: 7pt; margin-bottom: 9pt; display: flex; justify-content: space-between; align-items: flex-end; }
+  h1 { font: 400 25pt/1 Georgia, "Times New Roman", serif; letter-spacing: 3pt; margin: 0 0 5pt; color: #0b1220; }
+  .role { font-size: 10.5pt; letter-spacing: 1.6pt; text-transform: uppercase; color: #9a6a12; font-weight: 600; }
+  .contact { text-align: right; font-size: 8.7pt; line-height: 1.5; color: #3a4658; }
+  h2 { font: 600 8.4pt/1 "Segoe UI", Arial, sans-serif; letter-spacing: 1.8pt; text-transform: uppercase; color: #9a6a12; margin: 8pt 0 4pt; padding-bottom: 3pt; border-bottom: .6pt solid #d5dae2; }
+  p { margin: 0 0 4pt; }
+  .job { display: flex; justify-content: space-between; align-items: baseline; margin-top: 5pt; }
+  .job b { font-size: 10pt; color: #0b1220; }
+  .job span { font-size: 8.7pt; color: #556173; white-space: nowrap; }
+  .org { color: #556173; margin-bottom: 2pt; }
+  ul { margin: 2pt 0 0; padding-left: 12pt; }
+  li { margin-bottom: 1.6pt; }
+  .proj p { margin-bottom: 3pt; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; column-gap: 9mm; }
+  .skills p { margin-bottom: 2.4pt; }
+  .skills b, .proj b { color: #0b1220; }
+  .small { font-size: 8.5pt; }
+  .small p { margin-bottom: 2.6pt; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>RAYCO HERRERA</h1>
+      <div class="role">AI Product Engineer</div>
+    </div>
+    <div class="contact">
+      Canary Islands, Spain (UTC+0) · Remote<br>
+      <a href="mailto:rayco@outlook.com">rayco@outlook.com</a><br>
+      <a href="https://www.linkedin.com/in/rayco-herrera/">linkedin.com/in/rayco-herrera</a><br>
+      <a href="https://github.com/Ray86-dev">github.com/Ray86-dev</a>
+    </div>
+  </header>
+
+  <p>I design, build and run AI products end to end. EduCanarias, an AI SaaS for teachers, is in production with paying subscribers, and I built it alone. I work every day with coding agents under spec-driven development: I write the spec, decide the trade-offs, test and own what ships. A PhD in philosophy of technology and six years in the classroom are where my product judgment comes from.</p>
+
+  <h2>Experience</h2>
+
+  <div class="job"><b>Founder and Product Engineer · EduCanarias</b><span>Dec 2025 – present</span></div>
+  <div class="org"><a href="https://educanarias.app">educanarias.app</a> · AI assistant for teachers in the Canary Islands · sole builder</div>
+  <ul>
+    <li>From first commit to paying subscribers: testing with teachers, product, design, code, infrastructure, billing, support.</li>
+    <li>Built an agent with tool use that plans lessons from the official curriculum (3,966 evaluation criteria and 1,359 rubrics in Postgres), so it cannot invent a criterion code.</li>
+    <li>Shipped batch grading of handwritten exams from photos with a multimodal model: a grade per criterion with its evidence, reviewed by the teacher before it is saved.</li>
+    <li>Wrote tested guardrails: a scope classifier that runs before the agent, checks against false claims and leaked reasoning, and atomic quota reservation with refunds.</li>
+    <li>Rebuilt the product from a written spec in September 2026 and moved it to the main domain in three days, on the same database, without interrupting existing subscribers.</li>
+    <li>1,300+ commits, 84k lines of TypeScript, 130 test files, 68 SQL migrations, 18 edge functions. Stripe subscriptions, admin panel with revenue metrics, Android app.</li>
+  </ul>
+
+  <div class="job"><b>Secondary School Teacher, Philosophy</b><span>Sep 2020 – present</span></div>
+  <div class="org">Department of Education, Government of the Canary Islands</div>
+  <ul>
+    <li>Teach philosophy in public secondary schools. I use the kind of software I build every day, and test it with other teachers.</li>
+    <li>Build classroom software for my own classes, including real-time quiz games played from students' phones with no student data stored.</li>
+  </ul>
+
+  <h2>Selected projects</h2>
+  <div class="proj">
+    <p><b>Ink Writer</b> · Offline desktop app for writing novels (Tauri, Rust, TypeScript, Yjs, SQLite). The AI builds story sheets from the author's text and cites the passage behind each fact. Spec, roadmap with exit criteria, 21 architecture decision records and an evaluation set for the analysis pipeline. <a href="https://github.com/Ray86-dev/ink-writer">github.com/Ray86-dev/ink-writer</a></p>
+    <p><b>Nombramientos Canarias</b> · Python pipeline that turns the regional government's weekly PDFs into one searchable dataset of 9,900+ teacher appointments, with a Next.js frontend. <a href="https://no-can.vercel.app">no-can.vercel.app</a></p>
+    <p><b>ANOMALÍA</b> and <b>Sal de la caverna</b> · Classroom games in TypeScript and JavaScript on Supabase: anonymous play from phones, real-time channels, class views that only show aggregates.</p>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <p><b>AI products:</b> agents with tool use, grounding on structured data, guardrails, evaluation sets, multimodal input, cost and quota design. DeepSeek, Gemini, local models with Ollama.</p>
+    <p><b>Web:</b> TypeScript, React, Next.js, Vite, Tailwind CSS, TanStack Query. Supabase and PostgreSQL (row-level security, SQL migrations, PL/pgSQL), Deno edge functions, Cloudflare Workers, Stripe.</p>
+    <p><b>Practice:</b> spec-driven development with Claude Code, architecture decision records, Vitest, CI, Python for data extraction.</p>
+  </div>
+
+  <div class="cols">
+    <div>
+      <h2>Education</h2>
+      <div class="small">
+        <p><b>PhD in Philosophy</b>, University of La Laguna, 2019. Thesis: <i>Técnica y antropología en la obra de Günther Anders</i> (Technology and anthropology in the work of Günther Anders). Supervisor: José Manuel de Cózar Escalante. Sobresaliente cum laude.</p>
+        <p><b>Master's in Teacher Training</b>, University of La Laguna, 2020.</p>
+        <p><b>Licenciatura in Philosophy</b> (five-year degree), University of La Laguna, 2011.</p>
+      </div>
+      <h2>Languages</h2>
+      <div class="small"><p>Spanish (native) · English (C1) · German (B2)</p></div>
+    </div>
+    <div>
+      <h2>Publications</h2>
+      <div class="small">
+        <p><b>Book:</b> <i>Libertad en la era técnica: Günther Anders y la obsolescencia del ser humano</i>, 2024.</p>
+        <p>“La continuación de la antropología filosófica de Günther Anders en el mundo tecnificado”, in <i>Ética y política</i>, Comares, 2021.</p>
+        <p>With A. Hernández Pérez, “Apuntes sobre nihilismo: de la Ilustración a la bomba atómica”, <i>Contrastes</i> 25(1), 2020.</p>
+        <p>Translation of Günther Anders, “Post festum (1962)”, <i>Laguna: Revista de Filosofía</i>, 2017.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

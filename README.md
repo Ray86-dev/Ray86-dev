@@ -13,6 +13,7 @@
 <p align="center">
   <a href="mailto:rayco@outlook.com"><img alt="Email" src="https://img.shields.io/badge/rayco%40outlook.com-0b1220?style=for-the-badge&logo=maildotru&logoColor=e8b04b"></a>
   <a href="https://www.linkedin.com/in/rayco-herrera/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b1220?style=for-the-badge&labelColor=0b1220&color=0a66c2"></a>
+  <a href="cv/Rayco_Herrera_CV.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-PDF-0b1220?style=for-the-badge&labelColor=0b1220&color=e8b04b"></a>
   <a href="https://educanarias.app"><img alt="EduCanarias" src="https://img.shields.io/badge/educanarias.app-live-0b1220?style=for-the-badge&labelColor=0b1220&color=1f6feb"></a>
   <a href="case-studies/educanarias.md"><img alt="Case study" src="https://img.shields.io/badge/case%20study-read-0b1220?style=for-the-badge&labelColor=0b1220&color=e8b04b"></a>
 </p>
@@ -26,7 +27,7 @@
 <tr><td valign="top"><b>Where</b></td><td valign="top">Remote first. Based in the Canary Islands, Spain (UTC+0, same time as London and Lisbon)</td></tr>
 <tr><td valign="top"><b>Relocation</b></td><td valign="top">Open to Ireland, Germany, Canada and the US. A US role would need visa sponsorship</td></tr>
 <tr><td valign="top"><b>Languages</b></td><td valign="top">Spanish (native) · English (C1) · German (B2)</td></tr>
-<tr><td valign="top"><b>Contact</b></td><td valign="top"><a href="mailto:rayco@outlook.com">rayco@outlook.com</a> · <a href="https://www.linkedin.com/in/rayco-herrera/">LinkedIn</a></td></tr>
+<tr><td valign="top"><b>Contact</b></td><td valign="top"><a href="mailto:rayco@outlook.com">rayco@outlook.com</a> · <a href="https://www.linkedin.com/in/rayco-herrera/">LinkedIn</a> · <a href="cv/Rayco_Herrera_CV.pdf">CV (PDF)</a></td></tr>
 </table>
 
 <br>
