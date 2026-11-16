@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Rayco — Atlantico 28N — filosofia, educacion publica, software">
-<title>Rayco — Atlántico 28°N</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Rayco, AI Product Engineer. I ship AI products, end to end.">
+<title>Rayco · AI Product Engineer</title>
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#05080e"/>
@@ -82,11 +82,11 @@
   <g class="w3"><path class="wv" d="M-200 350 q50 -8 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0" opacity=".5"/></g>
   <line x1="0" y1="292" x2="1200" y2="292" stroke="#2b3d57" stroke-width="1" opacity=".6"/>
 
-  <text class="over rise d1" x="597" y="96" text-anchor="middle">ATLÁNTICO · 28°N</text>
+  <text class="over rise d1" x="597" y="96" text-anchor="middle">AI PRODUCT ENGINEER · REMOTE</text>
   <text class="name rise d2" x="590" y="182" text-anchor="middle">RAYCO</text>
   <line class="rule" x1="450" y1="200" x2="750" y2="200"/>
   <g clip-path="url(#typeclip)">
-    <text class="sub" x="600" y="250" text-anchor="middle">filosofía · educación pública · software</text>
+    <text class="sub" x="600" y="250" text-anchor="middle">I ship AI products, end to end</text>
   </g>
   <text class="sig riseS d3" x="600" y="338" text-anchor="middle">bauen · wohnen · denken</text>
 </g>
